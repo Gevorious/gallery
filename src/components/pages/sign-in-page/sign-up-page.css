@@ -1,0 +1,23 @@
+.SignUpPage {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sign_up_form {
+    background:  rgba(255, 255, 255, 0.95);
+    opacity: .95;
+    margin: auto;
+    margin-top: 150px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px 2px rgba(0,0,0,1);
+}
+
+.SignUpPage button{
+    margin-right: 10px;
+}
+
+.SignUpPage a{
+    margin-left: 10px;
+}

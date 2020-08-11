@@ -1,0 +1,49 @@
+.PhotoSlider {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    background: #2a2b2d93;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 100%;
+}
+
+i#rightBtn,
+i#leftBtn {
+    margin: 5px;
+    z-index: 1;
+    color:rgb(235, 235, 235);
+    font-size: 1.8rem;
+    transform: scaleY(6)
+}
+
+i:hover {  
+    font-weight: 900;
+}
+
+.btnDiv button:hover {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+@media(max-width: 640px){
+    .PhotoSlider {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1366px){
+    .images {
+        width: 100%;
+    }
+}

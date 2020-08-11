@@ -1,0 +1,7 @@
+.Footer {
+    display: flex;
+    align-self: flex-end;
+    background-color: #2a2b2d;
+    opacity: .7;
+    color: white;
+}

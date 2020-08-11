@@ -1,0 +1,19 @@
+.AdminPage {
+    min-height: 100vh; 
+}
+
+.file-content {
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    color: grey;
+    background: #ffffff;
+}
+
+.input {
+    
+}
+
+.file-content button {
+    margin-top: 5px
+}
